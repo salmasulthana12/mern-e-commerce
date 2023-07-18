@@ -1,0 +1,90 @@
+main {
+  min-height: 80vh;
+  margin-top: 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+h3 {
+  padding: 1rem 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  min-width: 6.5rem !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+hr {
+  margin: 0.2rem;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+tr:hover{
+  background-color: rgb(219, 219, 247);
+}
+
+.carousel{
+  background-color: #212529;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+  color: #fff;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
